@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-    baseURL: "http://20.255.52.88/api",
+    baseURL: "https://theunion.eastasia.cloudapp.azure.com/api",
 })
 
 
