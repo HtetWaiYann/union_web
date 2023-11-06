@@ -1,0 +1,65 @@
+:root {
+    --main-color: #03284C;
+    --button-color: #03284C;
+    --button-text-color: white;
+    --background-color: #03284C;
+    --border-radius: 10px;
+    --height: 40px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0 !important;
+    background-color: var(--background-color) !important;
+    color: white !important;
+}
+
+input,
+button, select {
+    height: var(--height) !important;
+    border-radius: var(--border-radius);
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--main-color) !important;
+}
+
+button:active{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.my-glass-card{
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: var(--border-radius);
+  padding: 15px;
+}
+
+.action-button {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  color: white !important;
+}
+
+.cancel-button{
+  background-color: transparent;
+  color: white !important;
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
+}
+
+.action-button:hover , .cancel-button:hover{
+  background: #074c92 !important;
+}

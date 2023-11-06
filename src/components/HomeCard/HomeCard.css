@@ -1,0 +1,16 @@
+.custom-card {
+    background-color: var(--main-color) !important;
+    color: var(--button-text-color) !important;
+    height: 80px;
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.custom-card img{
+    width: 40px;
+    margin-right: 1rem;
+}

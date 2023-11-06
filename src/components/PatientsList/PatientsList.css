@@ -1,0 +1,48 @@
+
+.refresh-button{
+    min-width: 40px;
+}
+table {
+    border-radius: 5px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    color: whitesmoke !important;
+}
+
+.table th,
+td {
+    background-color: transparent !important;
+    color: inherit !important;
+    height: 50px;
+    vertical-align: middle;
+    border: none !important;
+}
+
+.unsuccessful {
+    border: 1px solid;
+    padding: 5px;
+    font-size: 0.9rem;
+    color: indianred;
+    border-radius: 10px;
+}
+
+.successful {
+    border: 1px solid;
+    padding: 5px;
+    font-size: 0.9rem;
+    color: greenyellow;
+    border-radius: 10px;
+}
+
+.line {
+    width: 0px;
+    border-left: 1px solid;
+    margin: 10px;
+}
+
+.empty{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

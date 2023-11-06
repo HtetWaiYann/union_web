@@ -1,0 +1,16 @@
+.menu-container{
+    height: calc(100vh - 52.75px);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 45vw;
+
+}

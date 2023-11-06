@@ -1,0 +1,8 @@
+.glass{
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.glass .nav-link{
+    color: white;
+}
