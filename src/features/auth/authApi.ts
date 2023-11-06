@@ -2,5 +2,5 @@
 import API from "../../utils/axios"
 
 export const loginApi = async ({username, password} : { username: string, password: string })  => {
-    return await API.post('http://20.255.52.88/api/auth/signin', {username, password});
+    return await API.post('https://theunion.eastasia.cloudapp.azure.com/api/auth/signin', {username, password});
 }
